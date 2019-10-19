@@ -5,8 +5,9 @@ import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
+import org.w3c.dom.ls.LSOutput;
 
-public class Main extends Application {
+public class Main<B, str, myarray, str2> extends Application {
 
     @Override
     public void start(Stage primaryStage) throws Exception{
@@ -20,4 +21,6 @@ public class Main extends Application {
     public static void main(String[] args) {
         launch(args);
     }
+
+
 }
